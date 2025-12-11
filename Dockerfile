@@ -1,5 +1,4 @@
-
-FROM openjdk:17-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine AS build
 
 EXPOSE 8080
 
